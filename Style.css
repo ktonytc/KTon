@@ -1,0 +1,57 @@
+body{
+    background-image: ("myfon");
+}
+
+.photo{
+    width: 1280px;
+    height: 854px;
+    background-image: url("myfon.jpg");
+    margin: 0 auto;
+}
+
+.text{
+	display: block;
+	color: #fff;
+	text-align: center;
+	font-family: cursive;
+	font-size: 26px;
+
+}
+
+ul.menu{
+	width: 630px;
+	position: absolute;
+	top: 30px;
+	right: 100px;
+}
+
+ul.menu li{
+		list-style: none;
+		display: inline-block;
+		
+}
+
+ul.menu li a{
+	display: block;
+	background: black;
+	color: white;
+	text-decoration: none;
+	width: 140px;
+	text-align: center;
+	padding: 10px 0;
+
+	transition: 0.5s;
+}
+
+ul.menu li a:hover{
+	color: black;
+	background: white;	
+
+}
+
+.footer{
+    width: 1280px;
+    height: px;
+    background: white;
+    margin: 0 auto;
+}
