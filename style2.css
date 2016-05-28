@@ -1,0 +1,115 @@
+body{
+    background-image: url("aboutfon.jpg");
+	width: 1340px;
+	height: 1640px;
+	margin: 0 auto;
+}
+
+.fotka{
+	display: block;
+	width: 300px;
+	margin-left: 50px;
+	margin-top: 170px;
+	border: 10px double pink;
+}
+
+.text{
+	display: block;
+	color: black;
+	text-align: center;
+	font-family: italic;
+	font-size: 26px;
+	position: absolute;
+	right: 120px;
+	top: 170px;
+	width: 800px;
+	height: 420px;
+	border-radius: 30px;
+}
+
+ul.menu{
+	width: 630px;
+	position: absolute;
+	top: 30px;
+	right: 100px;
+}
+
+ul.menu li{
+		list-style: none;
+		display: inline-block;
+		
+}
+
+ul.menu li a{
+	display: block;
+	background: purple;
+	color: white;
+	text-decoration: none;
+	width: 140px;
+	text-align: center;
+	padding: 10px 0;
+
+	transition: 0.5s;
+}
+
+ul.menu li a:hover{
+	color: black;
+	background: white;	
+}
+
+ul.spusok{
+	width: 300px;
+	
+}
+
+ul.spusok li{
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+ul.spusok li a{
+	display: block;
+	background: pink;
+	color: black;
+	text-decoration: none;
+	width:200px;
+	height: 35px;
+	text-align: center;
+	text-shadow: 2px 2px 2px violet;
+	box-shadow: 3px 3px 4px violet;
+	font-size: 25px;
+	padding: 5px;	
+	transition: 4s;
+	
+}
+
+
+ul.spusok li a:hover{
+	background: purple;
+	color: white;
+	width: 500px;
+	transition: 1s;
+}
+
+.teext{
+	margin: 0 auto;
+	width: 1300px;
+	height: 1150px;
+	display: block;
+	font-size: 26px;
+	text-align: left;
+	background:  linear-gradient(to bottom, rgba(252,236,252,1) 0%,rgba(251,166,225,1) 50%,rgba(249,137,193,1) 55%,rgba(255,124,216,1) 100%);
+	border-radius: 30px;
+	padding-left: 10px;
+}
+
+.inf{
+	display: block;
+	width: 550px;
+	height: 370px;
+	position: absolute;
+	top: 215px;
+	right: 35px;
+	font-size: 26px;
+	
+}
